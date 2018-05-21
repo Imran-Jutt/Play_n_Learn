@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<html>
+	<head>
+	<link rel="stylesheet" href="{% static 'css/home.css'%}">
+	</head>
+<body >
+	<a href="#">Play N' Learn :</a>
+    <span style="position: fixed;font-family: sans-serif;margin-top:10px;text-align: right;">Welcome: {{ uname }}</span>
+	<div class="Profile"> </div>
+	<input type="button" name="logout" class="logout">
+	<div id="center">
+		<div class="dragDrop"></div>
+	</div>
+	<div class="game"></div>
+	<input type="button" name="runPrograme" class="runPrograme">
+</body>
+</html>

@@ -1,0 +1,33 @@
+{% load staticfiles %}
+<html>
+<head>
+<title>SignUp</title>
+	<link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' />
+</head>
+<body >
+	<div id="particles-js"></div>
+	<script type="text/javascript" src="{% static 'js/particles.js' %}"></script>
+	 <script type="text/javascript" src="{% static 'js/app.js' %}"></script>
+		<div class="main">
+			<div class="w3-agile-signup-top">
+				<h1>Play N' Learn</h1>
+			</div>
+                <div class="login-top left">
+                    <div class="signup-top">
+							<h3>SignUp Form</h3>
+                    </div>
+								<form method="POST" action="{% url 'home' %}">{% csrf_token %}
+                                    {{ form }}
+									<input type="submit" value="SIGN UP">
+								</form>
+								<div class="btn">
+								<h3><a href="#">Already Have an account<span>?</span></a></h3>
+								<h4><a href="#">Login</a></h4>
+								</div>
+								<div class="clear"></div>
+                </div>
+							
+	</div>
+</body>
+</html>
+

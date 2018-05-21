@@ -1,0 +1,92 @@
+#head {
+background-color:white;
+height:20px;
+border: 2px solid black;
+        position: fixed;
+        width: 100%;
+        <!-- background: linear-gradient(to bottom,#999999 90%, white 10%) -->
+}
+#footer{
+ position:fixed;
+   bottom:0;
+   width:100%;
+   height:25px;
+   bottom:0;
+border: 2px solid black;
+}
+#center{
+
+  position: fixed;
+  margin: auto;
+  margin-left: 470px;
+  width: 880px;
+  height: 610px;
+  border-radius: 3px;
+  border:0.5px solid gray;
+  margin-top: 23px;
+
+}
+.dragDrop{
+  position: fixed;
+  margin: auto;
+  margin-left: 0px;
+  width: 200px;
+  height: 609px;
+  border-radius: 3px;
+  background-color: #C0C0C0;
+
+}
+.Bar{
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+.game{
+  margin-top: 23px;
+  width: 450px;
+  height: 450px;
+  border-radius: 2px;
+  background-color: #90A6BE;
+}
+a{
+  text-decoration: none;
+  font-family: arial;
+  font-size: 20px;
+}
+a:hover { 
+    color: red;
+}
+.runPrograme{
+    font-size: 25px;
+    border-radius: 2mm;
+    color: white;
+    height: 45px;
+    width: 155px;
+    background-image: url("../images/btnrun.png");
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 270px;
+}
+.profile{
+  position: fixed;
+  background-color: blue;
+  margin-left: 1220px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin-top: -27px;
+  background-image: url("../images/profile.jpg");
+  background-size:cover;
+}
+.logout{
+  position: fixed;
+  background-image: url("../images/logout.jpg");
+  border-radius: 30px;
+  background-size: cover;
+  width:50px;
+  height: 50px;
+  margin-left: 1150px;
+  margin-top: -5px;
+}
