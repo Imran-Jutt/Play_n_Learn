@@ -22,3 +22,11 @@ def home(request):
             'uname': name
     }
         return render(request, 'PlayNLearn/home.html', context)
+    else:
+        context={
+            'uname':"Null"
+        }
+        return render(request, 'PlayNLearn/home.html',context)
+def landingPage(request):
+
+        return render(request, 'PlayNLearn/index.html')

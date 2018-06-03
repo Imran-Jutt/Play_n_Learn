@@ -1,6 +1,6 @@
-from django.forms import ModelForm, forms, TextInput
+from django.forms import ModelForm, TextInput
+
 from .models import signUp
-from django.utils.translation import gettext_lazy as _
 
 
 class signUpForm(ModelForm):
